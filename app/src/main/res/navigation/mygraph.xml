@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mygraph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.catata.perenxisainfo.HomeFragment"
+        android:label="@string/home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_FPBFragment"
+            app:destination="@id/FPBFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/FPBFragment"
+        android:name="com.catata.perenxisainfo.FPBFragment"
+        android:label="@string/fpb"
+        tools:layout="@layout/fragment_f_p_b" >
+        <action
+            android:id="@+id/action_FPBFragment_to_SMXFragment"
+            app:destination="@id/SMXFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/SMXFragment"
+        android:name="com.catata.perenxisainfo.SMXFragment"
+        android:label="@string/smx"
+        tools:layout="@layout/fragment_s_m_x" >
+        <action
+            android:id="@+id/action_SMXFragment_to_ASIXFragment"
+            app:destination="@id/ASIXFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/DAMFragment"
+        android:name="com.catata.perenxisainfo.DAMFragment"
+        android:label="@string/dam"
+        tools:layout="@layout/fragment_d_a_m" >
+        <action
+            android:id="@+id/action_DAMFragment_to_DAWFragment"
+            app:destination="@id/DAWFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/ASIXFragment"
+        android:name="com.catata.perenxisainfo.ASIXFragment"
+        android:label="@string/asix"
+        tools:layout="@layout/fragment_a_s_i_x" >
+        <action
+            android:id="@+id/action_ASIXFragment_to_DAMFragment"
+            app:destination="@id/DAMFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/DAWFragment"
+        android:name="com.catata.perenxisainfo.DAWFragment"
+        android:label="@string/daw"
+        tools:layout="@layout/fragment_d_a_w" >
+        <action
+            android:id="@+id/action_DAWFragment_to_DAMsFragment"
+            app:destination="@id/DAMsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/DAMsFragment"
+        android:name="com.catata.perenxisainfo.DAMsFragment"
+        android:label="@string/dams"
+        tools:layout="@layout/fragment_d_a_ms" >
+        <action
+            android:id="@+id/action_DAMsFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="com.catata.perenxisainfo.MapsFragment"
+        android:label="@string/location"
+        tools:layout="@layout/fragment_maps" />
+</navigation>

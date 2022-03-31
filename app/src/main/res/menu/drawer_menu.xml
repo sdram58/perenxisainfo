@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@android:drawable/ic_menu_directions"
+        android:title="@string/home" />
+    <group android:id="@+id/fpb">
+        <item
+            android:id="@+id/FPBFragment"
+            android:icon="@android:drawable/ic_menu_directions"
+            android:title="FPB" />
+    </group>
+
+    <group android:id="@+id/cfgm">
+        <item
+            android:id="@+id/SMXFragment"
+            android:icon="@android:drawable/ic_menu_directions"
+            android:title="SMX" />
+    </group>
+    <group android:id="@+id/cfgs">
+        <item
+            android:id="@+id/ASIXFragment"
+            android:icon="@android:drawable/ic_menu_directions"
+            android:title="ASIX" />
+
+        <item
+            android:id="@+id/DAMFragment"
+            android:icon="@android:drawable/ic_menu_directions"
+            android:title="DAM" />
+
+        <item
+            android:id="@+id/DAWFragment"
+            android:icon="@android:drawable/ic_menu_directions"
+            android:title="DAW" />
+    </group>
+    <group android:id="@+id/distancia">
+        <item
+            android:id="@+id/DAMsFragment"
+            android:icon="@android:drawable/ic_menu_directions"
+            android:title="DAMS" />
+    </group>
+
+    <item
+        android:id="@+id/mapsFragment"
+        android:icon="@android:drawable/ic_menu_directions"
+        android:title="Drawer 2" />
+
+</menu>

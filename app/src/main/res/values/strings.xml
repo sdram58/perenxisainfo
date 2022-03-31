@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">PerenxisaInfo</string>
+    <string name="name">IES Serra Perenxisa</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Inicio</string>
+    <string name="fpb">Formación Profesional Básica</string>
+    <string name="smx">CFGM Sistemas Microinformáticos en Red</string>
+    <string name="dam">CFGS Desarrollo de Aplicaciones Multiplataforma</string>
+    <string name="asix">CFGS Administración de Sistemas Informáticos en Red</string>
+    <string name="daw">CFGS Desarrollo de Aplicaciones Web</string>
+    <string name="location">Ubicación</string>
+    <string name="dams">CFGS Desarrollo de Aplicaciones Multiplataforma (Semipresencial)</string>
+</resources>
