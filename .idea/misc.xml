@@ -4,16 +4,20 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/usuario/AndroidStudioProjects/PerenxisaInfo/app/src/main/res/drawable/gradient_background.xml" value="0.1705" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/PerenxisaInfo/app/src/main/res/drawable/gradient_inv_background.xml" value="0.1705" />
         <entry key="..\:/Users/usuario/AndroidStudioProjects/PerenxisaInfo/app/src/main/res/drawable/splash_screen.xml" value="0.33" />
         <entry key="..\:/Users/usuario/AndroidStudioProjects/PerenxisaInfo/app/src/main/res/layout/activity_main.xml" value="0.15729166666666666" />
         <entry key="..\:/Users/usuario/AndroidStudioProjects/PerenxisaInfo/app/src/main/res/layout/drawe_header.xml" value="0.15729166666666666" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/PerenxisaInfo/app/src/main/res/layout/drawer_header.xml" value="0.15729166666666666" />
         <entry key="..\:/Users/usuario/AndroidStudioProjects/PerenxisaInfo/app/src/main/res/layout/fragment_a_s_i_x.xml" value="0.15729166666666666" />
         <entry key="..\:/Users/usuario/AndroidStudioProjects/PerenxisaInfo/app/src/main/res/layout/fragment_d_a_m.xml" value="0.15729166666666666" />
         <entry key="..\:/Users/usuario/AndroidStudioProjects/PerenxisaInfo/app/src/main/res/layout/fragment_d_a_ms.xml" value="0.15729166666666666" />
         <entry key="..\:/Users/usuario/AndroidStudioProjects/PerenxisaInfo/app/src/main/res/layout/fragment_d_a_w.xml" value="0.15729166666666666" />
         <entry key="..\:/Users/usuario/AndroidStudioProjects/PerenxisaInfo/app/src/main/res/layout/fragment_f_p_b.xml" value="0.15729166666666666" />
         <entry key="..\:/Users/usuario/AndroidStudioProjects/PerenxisaInfo/app/src/main/res/layout/fragment_home.xml" value="0.15729166666666666" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/PerenxisaInfo/app/src/main/res/layout/fragment_maps.xml" value="0.15729166666666666" />
         <entry key="..\:/Users/usuario/AndroidStudioProjects/PerenxisaInfo/app/src/main/res/layout/fragment_s_m_x.xml" value="0.15729166666666666" />
+        <entry key="..\:/Users/usuario/AndroidStudioProjects/PerenxisaInfo/app/src/main/res/layout/fragment_tabbed1.xml" value="0.15729166666666666" />
         <entry key="..\:/Users/usuario/AndroidStudioProjects/PerenxisaInfo/app/src/main/res/menu/drawe_menu.xml" value="0.15729166666666666" />
       </map>
     </option>

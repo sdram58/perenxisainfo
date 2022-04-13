@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/homeFragment"
-        android:icon="@android:drawable/ic_menu_directions"
+        android:id="@+id/tabbed1Fragment"
+        android:icon="@drawable/ic_home"
         android:title="@string/home" />
-    <group android:id="@+id/fpb">
+    <!--<group android:id="@+id/fpb">
         <item
             android:id="@+id/FPBFragment"
             android:icon="@android:drawable/ic_menu_directions"
@@ -38,11 +38,11 @@
             android:id="@+id/DAMsFragment"
             android:icon="@android:drawable/ic_menu_directions"
             android:title="DAMS" />
-    </group>
+    </group>-->
 
     <item
-        android:id="@+id/mapsFragment"
-        android:icon="@android:drawable/ic_menu_directions"
-        android:title="Drawer 2" />
+        android:id="@+id/mapsFragment2"
+        android:icon="@drawable/ic_mapa"
+        android:title="Ver mapa" />
 
 </menu>
