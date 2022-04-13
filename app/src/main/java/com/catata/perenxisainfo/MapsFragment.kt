@@ -1,34 +1,46 @@
 package com.catata.perenxisainfo
 
-import androidx.fragment.app.Fragment
-
+import android.app.Activity
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-
+import android.widget.Toast
+import androidx.fragment.app.Fragment
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
+import com.google.android.gms.maps.GoogleMap.OnMarkerClickListener
 import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.LatLng
+import com.google.android.gms.maps.model.Marker
 import com.google.android.gms.maps.model.MarkerOptions
+import kotlinx.coroutines.*
 
-class MapsFragment : Fragment() {
-
+class MapsFragment : Fragment(), OnMarkerClickListener {
+    lateinit var gMap:GoogleMap
     private val callback = OnMapReadyCallback { googleMap ->
-        /**
-         * Manipulates the map once available.
-         * This callback is triggered when the map is ready to be used.
-         * This is where we can add markers or lines, add listeners or move the camera.
-         * In this case, we just add a marker near Sydney, Australia.
-         * If Google Play services is not installed on the device, the user will be prompted to
-         * install it inside the SupportMapFragment. This method will only be triggered once the
-         * user has installed Google Play services and returned to the app.
-         */
-        val sydney = LatLng(-34.0, 151.0)
-        googleMap.addMarker(MarkerOptions().position(sydney).title("Marker in Sydney"))
-        googleMap.moveCamera(CameraUpdateFactory.newLatLng(sydney))
+        gMap = googleMap
+
+        val iesSerra = LatLng(39.4295152, -0.4664156)
+        gMap.addMarker(MarkerOptions().position(iesSerra).title(getString(R.string.name)))
+        moveToCurrentLocation(iesSerra)
+
+        gMap.mapType = GoogleMap.MAP_TYPE_HYBRID
+
+    }
+
+    private fun moveToCurrentLocation(currentLocation: LatLng) {
+        gMap.moveCamera(CameraUpdateFactory.newLatLngZoom(currentLocation, 10f))
+
+        GlobalScope.launch(Dispatchers.Main) {
+            delay(2000)
+            // Zoom in, animating the camera.
+            gMap.animateCamera(CameraUpdateFactory.zoomIn())
+            // Zoom out to zoom level 10, animating with a duration of 2 seconds.
+            gMap.animateCamera(CameraUpdateFactory.zoomTo(17f), 2000, null)
+        }
+
     }
 
     override fun onCreateView(
@@ -44,4 +56,13 @@ class MapsFragment : Fragment() {
         val mapFragment = childFragmentManager.findFragmentById(R.id.map) as SupportMapFragment?
         mapFragment?.getMapAsync(callback)
     }
+
+    override fun onMarkerClick(marker: Marker): Boolean {
+        Toast.makeText(requireActivity(), getString(R.string.here_we_are), Toast.LENGTH_SHORT).show()
+        return true
+    }
+
+
+
+
 }

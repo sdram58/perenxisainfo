@@ -3,21 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mygraph"
-    app:startDestination="@id/homeFragment">
+    app:startDestination="@id/FPBFragment">
 
-    <fragment
-        android:id="@+id/homeFragment"
-        android:name="com.catata.perenxisainfo.HomeFragment"
-        android:label="@string/home"
-        tools:layout="@layout/fragment_home" >
-        <action
-            android:id="@+id/action_homeFragment_to_FPBFragment"
-            app:destination="@id/FPBFragment"
-            app:enterAnim="@anim/slide_in_right"
-            app:exitAnim="@anim/slide_out_left"
-            app:popEnterAnim="@anim/slide_in_left"
-            app:popExitAnim="@anim/slide_out_right" />
-    </fragment>
+
     <fragment
         android:id="@+id/FPBFragment"
         android:name="com.catata.perenxisainfo.FPBFragment"

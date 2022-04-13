@@ -11,4 +11,9 @@
     <string name="daw">CFGS Desarrollo de Aplicaciones Web</string>
     <string name="location">Ubicación</string>
     <string name="dams">CFGS Desarrollo de Aplicaciones Multiplataforma (Semipresencial)</string>
+    <string name="teachings">Enseñanzas</string>
+
+    <string name="API_KEY">AIzaSyBvDG_pF7gX4Hg_NrEcKsNwGU91I-hCByE</string>
+    <string name="here_we_are">Aquí estamos esperándote</string>
+    <string name="maps_title">Ubicación del IES Serra Perenxisa</string>
 </resources>

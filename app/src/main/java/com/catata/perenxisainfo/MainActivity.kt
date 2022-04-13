@@ -37,6 +37,7 @@ class MainActivity : AppCompatActivity() {
         appBarConfiguration = AppBarConfiguration(setOf(
             //Top-level destinations
             R.id.tabbed1Fragment,
+            R.id.homeFragment,
             R.id.mapsFragment2
 
             ),
