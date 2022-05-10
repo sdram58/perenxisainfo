@@ -18,8 +18,4 @@ class DAMsFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_d_a_ms, container, false)
     }
 
-    override fun onResume() {
-        super.onResume()
-        (context as Activity).title = "DAM Semipresencial"
-    }
 }

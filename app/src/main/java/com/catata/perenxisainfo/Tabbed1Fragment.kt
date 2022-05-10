@@ -1,24 +1,24 @@
 package com.catata.perenxisainfo
 
-import android.annotation.SuppressLint
-import android.content.res.Resources
+import android.content.Context
 import android.graphics.ImageDecoder
 import android.graphics.drawable.AnimatedImageDrawable
-import android.os.Build
 import android.os.Bundle
-import androidx.fragment.app.Fragment
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.annotation.RequiresApi
+import androidx.fragment.app.Fragment
 import androidx.viewpager2.adapter.FragmentStateAdapter
+import androidx.viewpager2.widget.ViewPager2.OnPageChangeCallback
 import com.catata.perenxisainfo.databinding.FragmentTabbed1Binding
-import com.google.android.material.tabs.TabLayoutMediator
 import kotlinx.coroutines.*
 
 
 class Tabbed1Fragment : Fragment() {
     private lateinit var binding:FragmentTabbed1Binding
+
+    private lateinit var colorChangeInterface: ColorChangeInterface
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -29,11 +29,27 @@ class Tabbed1Fragment : Fragment() {
     }
 
 
+    override fun onAttach(context: Context) {
+        super.onAttach(context)
+        colorChangeInterface = context as ColorChangeInterface
+    }
+
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        binding.viewPager.adapter = PagerAdapter(this)
+        binding.viewPager.adapter = PagerAdapter(this, colorChangeInterface)
+
+
+
+        binding.viewPager.registerOnPageChangeCallback(object : OnPageChangeCallback() {
+            override fun onPageSelected(position: Int) {
+                super.onPageSelected(position)
+                colorChangeInterface.setToolBarColor(position)
+            }
+        })
+
+
 
         if(android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.P){
             GlobalScope.launch(Dispatchers.IO) {
@@ -57,14 +73,19 @@ class Tabbed1Fragment : Fragment() {
 
     }
 
-    class PagerAdapter(fragment: Fragment) : FragmentStateAdapter(fragment) {
+    class PagerAdapter(fragment: Fragment, val colorChangeInterface: ColorChangeInterface) : FragmentStateAdapter(fragment) {
+
+
+
+
 
         override fun getItemCount(): Int = 6
 
         override fun createFragment(position: Int): Fragment {
             // Return a NEW fragment instance in createFragment(int)
+
             return when (position) {
-                0 -> FPBFragment()
+                0 -> {FPBFragment() }
                 1 -> SMXFragment()
                 2 -> ASIXFragment()
                 3 -> DAMFragment()

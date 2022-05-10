@@ -19,10 +19,6 @@ class DAMFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_d_a_m, container, false)
     }
 
-    override fun onResume() {
-        super.onResume()
-        (context as Activity).title = "DAM"
-    }
 
 
 }

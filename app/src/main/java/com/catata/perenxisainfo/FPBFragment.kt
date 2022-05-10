@@ -18,8 +18,4 @@ class FPBFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_f_p_b, container, false)
     }
 
-    override fun onResume() {
-        super.onResume()
-        (context as Activity).title = "FPBI"
-    }
 }

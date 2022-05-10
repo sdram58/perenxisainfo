@@ -1,8 +1,9 @@
 <resources>
     <string name="app_name">PerenxisaInfo</string>
     <string name="name">IES Serra Perenxisa</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="grado_medio">CF Grado Medio</string>
+    <string name="grado_superior">CF Grau Superior</string>
+
     <string name="home">Inicio</string>
     <string name="fpb">Formación Profesional Básica</string>
     <string name="smx">CFGM Sistemas Microinformáticos en Red</string>
@@ -13,7 +14,75 @@
     <string name="dams">CFGS Desarrollo de Aplicaciones Multiplataforma (Semipresencial)</string>
     <string name="teachings">Enseñanzas</string>
 
+    <string name="fpb_siglas">FPB Informatica</string>
+    <string name="smx_siglas">SMX</string>
+    <string name="asix_siglas">ASIX</string>
+    <string name="dam_siglas">DAM</string>
+    <string name="dams_siglas">DAM Semipresencial</string>
+    <string name="daw_siglas">DAW</string>
+
+
+    <!-- OTRA
     <string name="API_KEY">AIzaSyBvDG_pF7gX4Hg_NrEcKsNwGU91I-hCByE</string>
+    -->
+
+    <!-- MAC -->
+    <string name="API_KEY">AIzaSyCqOtMx7TB0JuPURMhOkuN0uyGK3tYz0hY</string>
     <string name="here_we_are">Aquí estamos esperándote</string>
     <string name="maps_title">Ubicación del IES Serra Perenxisa</string>
+
+    <string name="modulos_1asix"><font color='#062607' size='20'><b>1r</b></font> Planificació i administració de xarxes.
+    \n<font color='#062607' size='20'><b>1r</b></font> Implantació de sistemes operatius.
+    \n<font color='#062607' size='20'><b>1r</b></font> Fonaments de hardware.
+    \n<font color='#062607' size='20'><b>1r</b></font> Gestió de bases de dades.
+    \n<font color='#062607' size='20'><b>1r</b></font> Llenguatges de marques i sistemes de gestió d’informació.
+    \n<font color='#062607' size='20'><b>1r</b></font> Formació i Orientació Laboral.
+    \n<font color='#062607' size='20'><b>1r</b></font> Anglès.</string>
+    <string name="modulos_2asix"><font color='#062607' size='20'><b>2n</b></font> Administració de sistemes operatius.
+        \n<font color='#062607' size='20'><b>2n</b></font> Serveis de xarxa i Internet.
+        \n<font color='#062607' size='20'><b>2n</b></font> Implantació d’aplicacions web.
+        \n<font color='#062607' size='20'><b>2n</b></font> Administració de sistemes gestors de bases de dades.
+        \n<font color='#062607' size='20'><b>2n</b></font> Seguretat i alta disponibilitat.
+        \n<font color='#062607' size='20'><b>2n</b></font> Empresa i iniciativa emprenedora.
+        \n<font color='#062607' size='20'><b>2n</b></font> Anglès.
+        \n<font color='#062607' size='20'><b>2n</b></font> Formació en Centres de Treball
+        \n<font color='#062607' size='20'><b>2n</b></font> Projecte.</string>
+    <string name="two_cursos">2 Cursos</string>
+    <string name="eixides_professionals_asix1"><font color='#062607' size='19'>T</font>ècnic d’administració de sistemes.
+        \n<font color='#062607' size='19'>R</font>esponsable d’informàtica.
+        \n<font color='#062607' size='19'>T</font>ècnic de serveis d’Internet.
+        \n<font color='#062607' size='19'>T</font>ècnic de serveis de missatgeria electrònica.
+        \n<font color='#062607' size='19'>P</font>ersonal de suport tècnic.
+        \n<font color='#062607' size='19'>T</font>ècnic de teleassistència.</string>
+    <string name="eixides_professionals_asix2"><font color='#062607' size='19'>T</font>ècnic de xarxes.
+        \n<font color='#062607' size='19'>T</font>ècnic d’administració de bases de dades.
+        \n<font color='#062607' size='19'>S</font>upervisió de sistemes.
+        \n<font color='#062607' size='19'>T</font>ècnic en serveis de telecomunicacions.
+        \n<font color='#062607' size='19'>T</font>ècnic en entorns web.</string>
+
+
+    <string name="modulos_1smx"><font color='#04006A' size='20'><b>1r</b></font> Montaje y mantenimiento de equipos.
+    \n<font color='#04006A' size='20'><b>1r</b></font> Redes locales.
+    \n<font color='#04006A' size='20'><b>1r</b></font> Aplicaciones ofimáticas.
+    \n<font color='#04006A' size='20'><b>1r</b></font> Sistemas operativos monopuesto.
+    \n<font color='#04006A' size='20'><b>1r</b></font> Formació i Orientació Laboral.
+    \n<font color='#04006A' size='20'><b>1r</b></font> Anglès.</string>
+    <string name="modulos_2smx"><font color='#04006A' size='20'><b>2n</b></font> Sistemas operativos en red.
+        \n<font color='#04006A' size='20'><b>2n</b></font> Seguridad informática.
+        \n<font color='#04006A' size='20'><b>2n</b></font> Servicios en red.
+        \n<font color='#04006A' size='20'><b>2n</b></font> Aplicaciones web.
+        \n<font color='#04006A' size='20'><b>2n</b></font> Empresa i iniciativa emprenedora.
+        \n<font color='#04006A' size='20'><b>2n</b></font> Anglès.
+        \n<font color='#04006A' size='20'><b>2n</b></font> Formació en Centres de Treball
+</string>
+    <string name="eixides_professionals_smx2">
+        <font color='#04006A' size='19'>T</font>écnico instalador-reparador de equipos.
+        \n<font color='#04006A' size='19'>T</font>écnico de soporte informático.
+        \n<font color='#04006A' size='19'>T</font>écnico de redes de datos.
+        \n<font color='#04006A' size='19'>R</font>eparador de periféricos de sistemas.
+        \n<font color='#04006A' size='19'>C</font>omercial de microinformática.
+        \n<font color='#04006A' size='19'>O</font>perador de tele-asistencia.
+        \n<font color='#04006A' size='19'>O</font>perador de sistemas.</string>
+
+
 </resources>

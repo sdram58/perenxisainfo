@@ -27,6 +27,5 @@ class ASIXFragment : Fragment() {
 
     override fun onResume() {
         super.onResume()
-        (context as Activity).title = "ASIX"
     }
 }

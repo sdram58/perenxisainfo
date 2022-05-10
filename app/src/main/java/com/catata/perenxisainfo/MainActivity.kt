@@ -1,16 +1,19 @@
 package com.catata.perenxisainfo
 
+
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.navigation.fragment.NavHostFragment
+
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.NavigationUI
+import com.catata.perenxisainfo.ColorChangeInterface
 import com.catata.perenxisainfo.databinding.ActivityMainBinding
 import com.google.android.material.navigation.NavigationView
 
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity(), ColorChangeInterface {
 
 
     private lateinit var binding: ActivityMainBinding
@@ -19,7 +22,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        Thread.sleep(2000)
+        Thread.sleep(1000)
 
         setTheme(R.style.Theme_PerenxisaInfo)
 
@@ -74,4 +77,16 @@ class MainActivity : AppCompatActivity() {
 
 
     }
+
+    override fun setToolBarColor(numTab: Int) {
+        when(numTab){
+            0 -> {binding.toolbar.setBackgroundColor(getColor(R.color.fpb_color)); binding.toolbar.title = getString(R.string.fpb_siglas)}
+            1 -> {binding.toolbar.setBackgroundColor(getColor(R.color.smx_color)); binding.toolbar.title = getString(R.string.smx_siglas)}
+            2 -> {binding.toolbar.setBackgroundColor(getColor(R.color.asix_color)); binding.toolbar.title = getString(R.string.asix_siglas)}
+            3 -> {binding.toolbar.setBackgroundColor(getColor(R.color.dam_color)); binding.toolbar.title = getString(R.string.dam_siglas)}
+            4 -> {binding.toolbar.setBackgroundColor(getColor(R.color.daw_color)); binding.toolbar.title = getString(R.string.daw_siglas)}
+            5 -> {binding.toolbar.setBackgroundColor(getColor(R.color.dams_color)); binding.toolbar.title = getString(R.string.dams_siglas)}
+        }
+    }
+
 }

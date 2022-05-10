@@ -17,8 +17,4 @@ class SMXFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_s_m_x, container, false)
     }
 
-    override fun onResume() {
-        super.onResume()
-        (context as Activity).title = "SMX"
-    }
 }
