@@ -54,6 +54,7 @@
         \n<font color='#062607' size='19'>T</font>ècnic de serveis de missatgeria electrònica.
         \n<font color='#062607' size='19'>P</font>ersonal de suport tècnic.
         \n<font color='#062607' size='19'>T</font>ècnic de teleassistència.</string>
+
     <string name="eixides_professionals_asix2"><font color='#062607' size='19'>T</font>ècnic de xarxes.
         \n<font color='#062607' size='19'>T</font>ècnic d’administració de bases de dades.
         \n<font color='#062607' size='19'>S</font>upervisió de sistemes.
@@ -67,6 +68,7 @@
     \n<font color='#04006A' size='20'><b>1r</b></font> Sistemas operativos monopuesto.
     \n<font color='#04006A' size='20'><b>1r</b></font> Formació i Orientació Laboral.
     \n<font color='#04006A' size='20'><b>1r</b></font> Anglès.</string>
+
     <string name="modulos_2smx"><font color='#04006A' size='20'><b>2n</b></font> Sistemas operativos en red.
         \n<font color='#04006A' size='20'><b>2n</b></font> Seguridad informática.
         \n<font color='#04006A' size='20'><b>2n</b></font> Servicios en red.
@@ -74,15 +76,13 @@
         \n<font color='#04006A' size='20'><b>2n</b></font> Empresa i iniciativa emprenedora.
         \n<font color='#04006A' size='20'><b>2n</b></font> Anglès.
         \n<font color='#04006A' size='20'><b>2n</b></font> Formació en Centres de Treball
-</string>
-    <string name="eixides_professionals_smx2">
-        <font color='#04006A' size='19'>T</font>écnico instalador-reparador de equipos.
+    </string>
+
+    <string name="eixides_professionals_smx2"><font color='#04006A' size='19'>T</font>écnico instalador-reparador de equipos.
         \n<font color='#04006A' size='19'>T</font>écnico de soporte informático.
         \n<font color='#04006A' size='19'>T</font>écnico de redes de datos.
         \n<font color='#04006A' size='19'>R</font>eparador de periféricos de sistemas.
         \n<font color='#04006A' size='19'>C</font>omercial de microinformática.
         \n<font color='#04006A' size='19'>O</font>perador de tele-asistencia.
         \n<font color='#04006A' size='19'>O</font>perador de sistemas.</string>
-
-
 </resources>

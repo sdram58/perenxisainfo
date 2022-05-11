@@ -39,6 +39,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/smx"
+                    android:fontFamily="@font/title_font"
                     android:textAlignment="center"
                     android:textColor="@color/white"
                     android:textSize="25sp" />
@@ -93,7 +94,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:src="@drawable/logos_smx"
-                android:scaleType="fitXY"
+                android:scaleType="fitCenter"
                 android:textSize="15sp" />
 
             <TextView
