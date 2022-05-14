@@ -39,8 +39,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/smx"
-                    android:fontFamily="@font/title_font"
                     android:textAlignment="center"
+                    android:textStyle="italic"
                     android:textColor="@color/white"
                     android:textSize="25sp" />
 

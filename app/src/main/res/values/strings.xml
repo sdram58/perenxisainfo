@@ -6,12 +6,12 @@
 
     <string name="home">Inicio</string>
     <string name="fpb">Formación Profesional Básica</string>
-    <string name="smx">CFGM Sistemas Microinformáticos en Red</string>
-    <string name="dam">CFGS Desarrollo de Aplicaciones Multiplataforma</string>
-    <string name="asix">CFGS Administración de Sistemas Informáticos en Red</string>
-    <string name="daw">CFGS Desarrollo de Aplicaciones Web</string>
+    <string name="smx">Sistemas Microinformáticos en Red</string>
+    <string name="dam">Desarrollo de Aplicaciones Multiplataforma</string>
+    <string name="asix">Administración de Sistemas Informáticos en Red</string>
+    <string name="daw">Desarrollo de Aplicaciones Web</string>
     <string name="location">Ubicación</string>
-    <string name="dams">CFGS Desarrollo de Aplicaciones Multiplataforma (Semipresencial)</string>
+    <string name="dams">Desarrollo de Aplicaciones Multiplataforma (Semipresencial)</string>
     <string name="teachings">Enseñanzas</string>
 
     <string name="fpb_siglas">FPB Informatica</string>
@@ -28,6 +28,8 @@
 
     <!-- MAC -->
     <string name="API_KEY">AIzaSyCqOtMx7TB0JuPURMhOkuN0uyGK3tYz0hY</string>
+
+
     <string name="here_we_are">Aquí estamos esperándote</string>
     <string name="maps_title">Ubicación del IES Serra Perenxisa</string>
 
@@ -85,4 +87,10 @@
         \n<font color='#04006A' size='19'>C</font>omercial de microinformática.
         \n<font color='#04006A' size='19'>O</font>perador de tele-asistencia.
         \n<font color='#04006A' size='19'>O</font>perador de sistemas.</string>
+    <string name="eixides_professionals_fpb1"><font color='#FF0000' size='19'>A</font>judant de muntador d’antenes receptores/ televisió satèl·lits.
+        \n<font color='#FF0000' size='19'>A</font>judant d’instal·lador i reparador d’equips telefònics i telegràfics.
+        \n<font color='#FF0000' size='19'>A</font>judant d’instal·lador d’equips i sistemes de comunicació.
+        \n<font color='#FF0000' size='19'>A</font>judant d’instal·lador reparador d’instal·lacions telefòniques.
+        \n<font color='#FF0000' size='19'>A</font>judant de muntador de sistemes microinformàtics.
+        \n<font color='#FF0000' size='19'>A</font>judant de manteniment de sistemes informàtics.</string>
 </resources>

@@ -23,22 +23,24 @@ class MapsFragment : Fragment(), OnMarkerClickListener {
         gMap = googleMap
 
         val iesSerra = LatLng(39.4295152, -0.4664156)
-        gMap.addMarker(MarkerOptions().position(iesSerra).title(getString(R.string.name)))
+        gMap.addMarker(MarkerOptions().position(iesSerra).title(getString(R.string.name)).snippet(getString(R.string.here_we_are)))
         moveToCurrentLocation(iesSerra)
+
+        //gMap.setOnMarkerClickListener(this)
 
         gMap.mapType = GoogleMap.MAP_TYPE_HYBRID
 
     }
 
     private fun moveToCurrentLocation(currentLocation: LatLng) {
-        gMap.moveCamera(CameraUpdateFactory.newLatLngZoom(currentLocation, 10f))
+        gMap.moveCamera(CameraUpdateFactory.newLatLngZoom(currentLocation, 9f))
 
         GlobalScope.launch(Dispatchers.Main) {
             delay(2000)
             // Zoom in, animating the camera.
             gMap.animateCamera(CameraUpdateFactory.zoomIn())
             // Zoom out to zoom level 10, animating with a duration of 2 seconds.
-            gMap.animateCamera(CameraUpdateFactory.zoomTo(17f), 2000, null)
+            gMap.animateCamera(CameraUpdateFactory.zoomTo(17f), 2500, null)
         }
 
     }

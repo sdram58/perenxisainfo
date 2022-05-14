@@ -12,15 +12,15 @@
 
     <color name="gradientstart">#04bfbf</color>
     <color name="gradientend">#FFFFFF</color>
-    <color name="asix_web">#535252</color>
+    <color name="asix_web">#272626</color>
     <color name="asix_titulos_background">#0B3300</color>
     <color name="smx_titulos_background">#04006A</color>
     <color name="dam_titulos_background">#0B3300</color>
     <color name="daw_titulos_background">#0B3300</color>
     <color name="dams_titulos_background">#0B3300</color>
-    <color name="fpb_titulos_background">#0B3300</color>
+    <color name="fpb_titulos_background">#FF0000</color>
     <color name="asix_font">#062607</color>
-    <color name="fpb_color">#597A50</color>
+    <color name="fpb_color">#FB8E6A</color>
     <color name="smx_color">#1900FF</color>
     <color name="asix_color">#329901</color>
     <color name="dam_color">#459822</color>
